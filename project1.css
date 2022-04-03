@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.mainContainer{
+   
+   
+   height: 100%;
+   /* background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    /* background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?cs=srgb&dl=pexels-mateusz-dach-450035.jpg&fm=jpg"); */
+    /* Center and scale the image nicely */
+    background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.logo{
+     margin-left: 5rem;
+   }
+.logoImage{
+    width: 15rem;
+    height: 15rem;
+}
+.signup{
+   
+        height: 50%;
+    
+    
+    display: flex;
+    flex-direction: row;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 22px;
+    background-color: #c0955b;
+    color: white;
+  }
+  input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 22px;
+    background-color: #c0955b;
+    color: white;
+  }
+.flex1{
+    flex:30%
+}
+.mainBox{
+    flex: 75%;
+   
+    margin:2.5rem ;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.;
+   
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    color: rgb(189, 24, 57);
+    text-shadow: 2px 2px 5px white;
+}
+.usname{
+ 
+text-align: center;
+ margin: 20px 65px;
+ 
+}
+input:hover{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 22px;
+    /* background-color: #364f4c; */
+    border: 2px solid #364f4c;
+    color: white;
+}
+.labelText{
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 2px 1px whitesmoke;
+}
+
+.button{
+    text-align: center;
+   padding: 2rem 0;
+}
+.submit{
+    width: 15vw;
+    padding: 8px ;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #7a6558;
+}
+.forgetpass{
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btnText{
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: #6c6d65;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  .Software{
+      text-align: center;
+align-items: center;
+  }
+  .inner{
+font-size: 20px;
+
+padding-top: 50px;
+  }
